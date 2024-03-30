@@ -13,9 +13,12 @@ namespace DesignPatterns
         static void Main(string[] args)
         {
             
-            Open_ClosedPrinciple openClosedPrinciple = new Open_ClosedPrinciple();
-            openClosedPrinciple.Open_ClosedPrincipleMain();
-        
+            // Open_ClosedPrinciple openClosedPrinciple = new Open_ClosedPrinciple();
+            // openClosedPrinciple.Open_ClosedPrincipleMain();
+
+            LiskovSubstitutionPrinciple liskovSubstitutionPrinciple = new LiskovSubstitutionPrinciple();
+            liskovSubstitutionPrinciple.LiskovSubPrinciple();
+
         }
     }
 }
