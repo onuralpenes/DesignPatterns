@@ -58,7 +58,7 @@ namespace DesignPatterns
         {
             Rectangle rc = new Rectangle(2, 3);
             WriteLine($"{rc} has area {Area(rc)}");
-
+            
             
             Rectangle sq = new Square();
             sq.Width = 4;
